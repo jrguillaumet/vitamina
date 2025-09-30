@@ -4,7 +4,7 @@
 Genera un fichero con la lista de los grupos locales y de dominio dentro de la maquina windows. Funciona en Workstation y Windows Server
 
 
-´´´
+```
 $salida = ".\GruposLocalesYMiembros_$($env:COMPUTERNAME).csv"
 
 try {
@@ -32,4 +32,5 @@ catch {
 }
 
 Write-Host "CSV generado: $salida"
-´´´
+
+```
