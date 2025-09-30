@@ -1,7 +1,7 @@
 # Audit Windows
 
-# Lista de Grupos locales / Miembros
-
+## Lista de Grupos locales / Miembros
+Genera un fichero con la lista de los grupos locales y de dominio dentro de la maquina windows. Funciona en Workstation y Windows Server
 
 
 ´´´
@@ -32,3 +32,4 @@ catch {
 }
 
 Write-Host "CSV generado: $salida"
+´´´
