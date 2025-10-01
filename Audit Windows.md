@@ -6,7 +6,6 @@ Genera un fichero con la lista de los grupos locales y de dominio dentro de la m
 
 ```
 $salida = ".\GruposLocalesYMiembros_$($env:COMPUTERNAME).csv"
-
 try {
   Get-LocalGroup | ForEach-Object {
     $g = $_
@@ -30,7 +29,6 @@ catch {
       }
     } | Sort-Object Grupo, Name | Export-Csv $salida -NoTypeInformation -Encoding UTF8
 }
-
 Write-Host "CSV generado: $salida"
 
 ```
