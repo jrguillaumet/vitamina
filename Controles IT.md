@@ -2,9 +2,9 @@ Buscar el literal "periódic" dentro del cobit para identificar controles period
 
 ## Controles
 
-´´´
+```
 APO07.01.01 Evaluar los requisitos de personal de forma periódica o ante cambios mayores Asegurar que tanto la empresa como la función de TI tengan los suficientes recursos para apoyar las metas y los objetivos empresariales, procesos y controles empresariales y las iniciativas habilitadas por I&T de forma adecuada y apropiada.
-´´´
+```
 
 
 EDM05.03 Monitorizar el compromiso de las partes interesadas: 1. Evaluar periódicamente la eficiencia de los mecanismos para garantizar la precisión y confiabilidad de informes obligatorios.
